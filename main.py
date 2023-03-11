@@ -43,12 +43,12 @@ sendall = 0
 
 # TODO 
 # replace the 0 with the pins channel ID for your sever
-pins_channel = 808077847398318080
+pins_channel = 808077801227812914
 
 # TODO
 # add any black listed channel IDs as a list separated by a comma (,)
 # a good idea is to add admin channels to this
-blacklisted_channels = [920874975357984789]
+blacklisted_channels = [376187407520759808]
 
 # discord embed colors
 EMBED_COLORS = [
