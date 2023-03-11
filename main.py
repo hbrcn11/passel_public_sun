@@ -1,7 +1,7 @@
 from random import randrange
 
 # TODO if using Github diff deployment on HeroKu uncomment the next line
-#import os
+import os
 import discord
 from discord.ext import commands
 
@@ -43,12 +43,12 @@ sendall = 0
 
 # TODO 
 # replace the 0 with the pins channel ID for your sever
-pins_channel = 948375476685111296/954794285222486046
+pins_channel = 808077801227812914
 
 # TODO
 # add any black listed channel IDs as a list separated by a comma (,)
 # a good idea is to add admin channels to this
-blacklisted_channels = []
+blacklisted_channels = [376187407520759808]
 
 # discord embed colors
 EMBED_COLORS = [
@@ -209,7 +209,7 @@ async def on_guild_channel_pins_update(channel, last_pin):
 
 
 # TODO Replace TOKEN with the token from discord developer portal 
-client.run('MTAwOTEyNjIzMTU4Njg5ODAyMg.GOPYKu.B3uxCiiU9IEOp3mWgoPe5Rq6b6w5Ynptc25Ews')
+#client.run('MTA4MzkyNzM1OTQxOTMzMDYxMg.GXCLDK.MAMjtFgW_zCZvlU8LvBUEJvJ6XV816MRLjm70Q')
 
 # TODO If using GitHub diff deployment on HeroKu comment out the above line with '#' and remove '#' from the line below to uncomment it. 
-#client.run(os.environ.get('TOKEN'))
+client.run(os.environ.get('TOKEN'))
